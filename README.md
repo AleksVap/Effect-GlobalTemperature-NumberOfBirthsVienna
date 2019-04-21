@@ -22,14 +22,14 @@ Both datasets have already been downloaded and placed into the `src/data/raw` fo
 ### Live births in Vienna
 
 The dataset was downloaded from the Open Data Austria website, accessed via https://www.data.gv.at/katalog/dataset/f54e6828-3d75-4a82-89cb-23c58057bad4 on April 19, 2019
-It is freely available under the Creative Commons (CC BY 4.0) licence.
+It is freely available under the Creative Commons (CC BY 4.0) licence and has the unique id f54e6828-3d75-4a82-89cb-23c58057bad4.
 
 It contains data about the number of live briths in Vienna from 2002 to 2017 group by age of the mother and gender of the child.
 
-### Mean near surface temperature deviation
+### Mean near surface temperature deviation 
 
 The dataset was downloaded from the EU Open Data website, accessed via https://data.europa.eu/euodp/en/data/dataset/zQAEvhkR7H0NQYU1HP5fA on April 19, 2019
-It is freely available under the Creative Commons (CC BY 4.0) licence.
+It is freely available under the Creative Commons (CC BY 4.0) licence and has the unique id cli_iad_td.
 
 It contains data about the global mean near surface temperature deviation from 1850 to 2017 from different sources. The source TD_GLB,NOAAGLOBALTEMP,DEGC was used for the conducted experiment.
 
