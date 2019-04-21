@@ -1,0 +1,19 @@
+Preprocessed and merged data (project/src/data/processed/mergedData.csv):
+- The datasets contains values from 2002 to 2017
+- The first row of the file contains the column titles (= the header).
+- Every row afterwards contains values separated by a semi-colon:
+  index; year; global near surface temperature deviation; number of children born in Vienna
+
+Time series plot (project/plots/time-series-line-plot.jpg):
+- The x-axis depicts the years of the sampled data and ranges from 2002 to 2017
+- There are two y-axises:
+    > the left one depicts the global temperature deviations and belongs to the blue curve (Temp dev)
+    > the right one depicts the number of live-births in Vienna and belongs to the red curve (Live-births)
+
+
+Scatter plot (project/plots/scatter-plot-with-linear-model.jpg):
+- The x-axis depicts the global near surface temperature deviation
+- The y-axis depicts the number of live-births in Vienna
+- The black dots represent data points
+- The blue line shows a linear regression model fitted to the data
+- the grey area guarding the blue prediction line depicts the 95% confidence interval of the respective prediction

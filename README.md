@@ -39,13 +39,17 @@ It contains data about the global mean near surface temperature deviation from 1
 Before running the experiment one needs to make sure, that the folders (described in Section Project Structure) exist and that the working directory in preprocessData.R is set to the project directory path (e.g. using `setwd(<project-path>)` in the R console).
 
 The experiment was executed using the following libraries with the following versions:
+* `RStudio` - version 1.1.456
+* `MiKTeX` - version 2.9
 * `R` - version 3.5.1
+* `rmarkdown` - version 1.10
 * `ggplot2` - version 3.0.0
+* 
 
 The data preprocessing script can be started from the `project` directory using `Rscript ./src/preprocessData.R`.
-The report.Rmd file can be opened with e.g. RStudio and can be executed by using the Run All Button.
+The report.Rmd file can be opened with e.g. RStudio and can be executed by using the `Run All` Button.
 
-## Experiment Architecture 
+## Experiment Architecture
 ### Preprocessing
 The datasets were preprocessed in the following way:
 * At first the temperature and birth datasets were loaded.
