@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<dc:title>Correlating global temperature change on number of children born in Vienna</dc:title>
+	<dc:creator>Aleksandar Pavlovic (https://orcid.org/0000-0001-6887-9515)</dc:creator>
+	<dc:subject>Correlating global temperature change on number of children born in Vienna</dc:subject>
+	<dc:description>
+		The aim of this pseudo experiment is to analyze the relation between the global temperature change and the number of children born alive in Vienna. 
+		The experiment is conducted, by means of visual data science (exploring the data by plotting it in an appropriate manner).
+	</dc:description>
+	<dc:date>21.04.2019</dc:date>
+<dc:type>DataGeneration</dc:type>
+<dc:format>Rmd</dc:format>
+<dc:format>R</dc:format>
+<dc:source>https://www.data.gv.at/katalog/dataset/f54e6828-3d75-4a82-89cb-23c58057bad4, id: f54e6828-3d75-4a82-89cb-23c58057bad4</dc:source>
+<dc:source>https://data.europa.eu/euodp/en/data/dataset/zQAEvhkR7H0NQYU1HP5fA , id: cli_iad_td</dc:source>
+<dc:language>English</dc:language>
+<dc:coverage>2002-2017</dc:coverage>
+<dc:rights>Free access</dc:rights>
+</metadata>
