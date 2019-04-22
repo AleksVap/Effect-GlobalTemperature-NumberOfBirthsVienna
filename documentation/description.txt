@@ -4,14 +4,14 @@ Preprocessed and merged data (project/src/data/processed/mergedData.csv):
 - Every row afterwards contains values separated by a semi-colon:
   index; year; global near surface temperature deviation; number of children born in Vienna
 
-Time series plot (project/plots/time-series-line-plot.jpg):
+Time series plot (project/plots/timeSeriesLinePlot.jpg):
 - The x-axis depicts the years of the sampled data and ranges from 2002 to 2017
 - There are two y-axises:
     > the left one depicts the global temperature deviations and belongs to the blue curve (Temp dev)
     > the right one depicts the number of live-births in Vienna and belongs to the red curve (Live-births)
 
 
-Scatter plot (project/plots/scatter-plot-with-linear-model.jpg):
+Scatter plot (project/plots/scatterPlotWithLinearModel.jpg):
 - The x-axis depicts the global near surface temperature deviation
 - The y-axis depicts the number of live-births in Vienna
 - The black dots represent data points

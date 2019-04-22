@@ -37,7 +37,7 @@ ggplot(data=data, aes(x=year, group=1)) +
   geom_line(aes(y = LIVEBIRTH/20000, colour = "Live-births")) +
   scale_y_continuous(sec.axis = sec_axis(~.*20000, name = "Number of live-births"))
 
-ggsave("./plots/time-series-line-plot.jpg")
+ggsave("./plots/timeSeriesLinePlot.jpg")
 ```
 ```{r}
 # Second visualisation:
@@ -45,7 +45,7 @@ ggplot(data=data, aes(x=GlobalTempDev, group=1)) +
   geom_point(aes(y = LIVEBIRTH)) +
   geom_smooth(mapping = aes(x = GlobalTempDev, y = LIVEBIRTH), method=lm)
 
-ggsave("./plots/scatter-plot-with-linear-model.jpg")
+ggsave("./plots/scatterPlotWithLinearModel.jpg")
 ```
 ```{r}
 cor(data$GlobalTempDev, data$LIVEBIRTH, method="pearson")
