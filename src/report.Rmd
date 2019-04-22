@@ -1,5 +1,5 @@
 ---
-title: "194.044 Data Stewardship "
+title: "194.044 Data Stewardship"
 subtitle: "Assignment 1"
 author: "Aleksandar Pavlovic"
 date: "16.04.2019"
