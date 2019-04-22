@@ -39,6 +39,9 @@ ggplot(data=data, aes(x=year, group=1)) +
 
 ggsave("./plots/timeSeriesLinePlot.jpg")
 ```
+
+One can see in the graph above, that the general trend of both variables is the same (thus the two variables seem to be highly correlated).
+
 ```{r}
 # Second visualisation:
 ggplot(data=data, aes(x=GlobalTempDev, group=1)) +
@@ -47,6 +50,9 @@ ggplot(data=data, aes(x=GlobalTempDev, group=1)) +
 
 ggsave("./plots/scatterPlotWithLinearModel.jpg")
 ```
+Further investigation leads to the above scatterplot enhanced with the prediction of a linear model (blue line) and the 95\% confidence interval (grey area). One can see, that all black points (data points) are very close to that prediction line, thus again revealing, that the two variables are highly correlated. 
+
 ```{r}
 cor(data$GlobalTempDev, data$LIVEBIRTH, method="pearson")
 ```
+Looking at the Pearson correlation coefficient reveals, that the data is in fact really highly correlated, thus when one ignores that there is a difference between causality and correlation, one can infer that the rising temperature leads to an increase of live-births in Vienna.
