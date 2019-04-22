@@ -46,7 +46,6 @@ The experiment was executed using the following libraries with the following ver
 * `R` - version 3.5.1
 * `rmarkdown` - version 1.10
 * `ggplot2` - version 3.0.0
-* 
 
 The data preprocessing script can be started from the `project` directory using `Rscript ./src/preprocessData.R`.
 The report.Rmd file can be opened with e.g. RStudio and can be executed by using the `Run All` Button.
