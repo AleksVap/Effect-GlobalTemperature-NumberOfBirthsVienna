@@ -10,11 +10,13 @@ The experiment is conducted, by means of visual data science (exploring the data
 
 ## Project structure
 
-* `src` - Contains the code for preprocessing the data and conducting the experiment plus the report file and the following subfolders
+* `documentation` - Contains the documentation of the results (documentation.txt), the project metadata (metadata.xml) and the experiment architecture (architecture.png)
+* `src` - Contains the code for preprocessing the data and conducting the experiment plus the results (see following subfolders)
 * `src/data/raw` - Contains the downloaded (raw) datasets
 * `src/data/processed` - Contains the preprocessed and merged dataset
-* `src/preprocessData.R` - Contains the code for preprocessing the data.
-* `src/report.Rmd` - Contains the code necessary to load the preprocessed data and execute the experiment.
+* `src/preprocessData.R` - Contains the code for preprocessing the data
+* `src/report.Rmd` - Contains the code necessary to load the preprocessed data and to execute the experiment and is used to generate the report.pdf file
+* `src/plots` - Contains the result plots of the experiment
 
 ## Datasets
 Both datasets have already been downloaded and placed into the `src/data/raw` folder.
